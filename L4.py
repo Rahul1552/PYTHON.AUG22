@@ -1,89 +1,76 @@
-
 #################################################
-# 24.08.2022 
+# 19.08.2022
 #################################################
 # TOPICS TO BE COVERED 
-# VARIABLES IN PYTHON 
-# INTRO BUILT-IN DATA TYPE OF PYTHON:
-# https://www.python.org/
-# https://www.programiz.com/python-programming/online-compiler/
+# 👉 VARIABLES IN PYTHON 
+# https://www.python.org/about/
 #################################################
 
 
-# ALLOWED VARIABLE NAMES IN PYTHON
+# Allowed variable names in Python 
 '''
 iam
+
 i_am
-_iam
+__iam
 _i_am
 I_AM
-_I_AM
-I_AM_NO1
-_i_am_no21
-'''
-# not allowed
-'''
-@cool_boy
-1_23_nine
-:rahul:59
-'''
-# not recommended , prohibited
-# reserved in python , either in current use or reserved for future use
-# these are DUNDER VARIABLES
+I_AM
+i_am_no1
+_i_am_no1
 
-'''
-__class__
-__init__
-__save__
-__rahul__
+__len__ # dunder len = double underscore length method , not to be used to name our varible
+
+
+# below are not allowed to be used as a variable name in Python
+
+1_am_
+@_cool_boy
+#1#23_
+**123**_
+
 
 '''
-iam = 1
-print(iam)
 
-iam = 100
-print(iam)
+# overwrting a variable with different values
 
-# value can be allocated dynamically at any line of code
+i_am = 1
+print(i_am)
 
+i_am = 100
+print(i_am)
 
-iam = "MinSkole"
-print(iam)
+i_am = 1000
+print(i_am)
 
+print(i_am)
 
-# there in no liit in reassigning the value to a variable 
+# one value to multiple variables 
 
+i_am = "Indian"
+we_are  = "indian"
 
-#  Assigning commonn value to multiple variables > Indian
-
-iam = "Indian"
-we_are = "Indian"
-they_are  = "Indian"
-
-
-print(iam)
+print(i_am)
 print(we_are)
-print(they_are)
 
-print("***************")
-iam = we_are =they_are = "Indian"
-print(iam)
+i_am = we_are = "indian"
+
+print(i_am)
 print(we_are)
-print(they_are)
 
+# box1 i_am Indian
+# box2 we_are  Indian
 
-print("***************")
-
-akash , amit ,mukesh = "roll1" , "roll2" ,"roll3"
-
-print(akash)
-print(amit)
-print(mukesh)
-
-
-print("***************")
-iam = we_are =they_are = "Indian"
-we_are = "North_Indian" # the memory addr will change
-print(id(iam))
+# using id() to get  the memory address of the variable 
+ 
+print(id(i_am))
 print(id(we_are))
-print(id(they_are))
+
+
+# many value to multiple variables 
+
+i_am , we_are , they_are = "Person1" , "Person2" , "Person3"
+
+print(i_am)
+print(we_are)
+print(they_are)

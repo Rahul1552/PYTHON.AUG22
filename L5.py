@@ -1,133 +1,87 @@
-
 #################################################
-# 26.08.2022
+# 02.09.2022
 #################################################
-# TOPICS TO BE COVERED 
-# INTRO BUILT-IN DATA TYPE OF PYTHON:
-# https://www.python.org/
-# https://www.programiz.com/python-programming/online-compiler/
-# https://docs.python.org/3/library/stdtypes.html#built-in-types
+# TOPICS TO BE COVERED  
+# UNDERSTANDNIG the  First Python Code !!!
+# PYTHON SYNTAX
 #################################################
 
-# not recommended , prohibited
-# reserved in python , either in current use or reserved for future use
-# these are DUNDER VARIABLES
-
-# __RAHUL__ = 100
-
-# __init__ =100
-
-# __main__ = "ramesh"
+print('Hello World !!!')
 
 
-
-#################################################
-# INTRO BUILT-IN DATA TYPE OF PYTHON:
-#################################################
+# Exploring print function
 
 
-print("**********NUMERIC*******************")
-# using type() to find the data-type
-iam = -1
-print(type(iam))
-
-iam = -1.1
-print(type(iam))
-
-iam = -1+4j
-print(type(iam))
+print(10)
+print(10+10)
+print(10*10)
+print('10*10')
+print(10-9)
+print(10%9)
+print(10/9)
 
 
-iam = -1.0
-print(type(iam))
+print("Printing without argument")
+print()
+print("Printing quotes")
+print('')
 
 
-print("**********STRINGS*******************")
+print("Printing multiple arguments")
 
-iam = 'r'
-print(type(iam))
-
-iam = 'rahul'
-print(type(iam))
-
-
-iam = 'rahul likes Python3.0'
-print(type(iam))
-
-
-iam = 'வணக்கம்'
-print(type(iam))
+print('The sum of 10 and 56 is :',10+56)
+print('The sum of 10 and 56 is :',10+56 , 'This is the ans')
+print('The sum of 10 and 56 is :',10+56 , 'This is the ans', 'hi')
 
 
 
-iam = "-1+4j"
-print(type(iam))
-
-print("**********STRINGS HAVING ESCAPE CHAR*******************")
-
-iam = r"C:\Users\RAHUL\Documents\OnePython\3.August_22\CLASS"
-print(type(iam))
-
-iam = "C:\\Users\RAHUL\Documents\OnePython\\3.August_22\CLASS"
-print(type(iam))
+# PYTHON SYNTAX
 
 
+print(10)
+print(10+10)
+print(10*10)
 
-print("**********LIST*******************")
-
-i_am_list = [2,4,6,8,10]
-print(i_am_list)
-print(type(i_am_list))
-
-i_am_list = [2.0,4.0,6,8,10,"Rahul","chetan","mukesh"]
-print(i_am_list)
-print(type(i_am_list))
-
-i_am_list = ["This is  a sentence " ,"inside a list" , 22]
-print(i_am_list)
-print(type(i_am_list))
-
- 
-print("**********TUPLES*******************")
+a = 500
+if a > 100:
+    print(10+10)
+    print(10*10)
+    b = 500
+    if b > 100:
+        print(10+10)
+        print(10*10)
 
 
-shiva = (2,4,6,8,10)
-print(shiva)
-print("Type of shiva is :" ,type(shiva))
+
+print(10)
 
 
-print("**********DICTIONARY*******************")
+# comments in python 
+# this is a comment
+# this is 2nd line comment 
+# this is 3rd line comment
 
-dict1 = {
-    # key(has to be unique) : value
-    "r" : "Rahul",
-    "s" : "Shivaprasad",
-    "g" : "Ganesh",
-    "s" : "Sankarshan",
-    "r1" : "Rahul"
+# multi-line comment 
 
-}
-
-print(dict1)
-print(type(dict1))
+'''
+this is 1st line
+this is 2nd line 
+this is 3nd line 
+'''
 
 
-dict_even = {
-    # key(has to be unique) : value
-    2 : 22,
-    4 :44 ,
-    6 : 66
-}
-print(dict_even)
-print(type(dict_even))
+# input() function
 
 
-# HW 
+# a = input('Enter your area PIN code:')
+# print(a)
 
-am_i_string = ''
-print(type(am_i_string ))
-am_i_string = ""
-am_i_list = []
-am_i_tuple = ()
-am_i_dict = {}
+# a  = input("Enter your city")
+# print('Your city is : ',a)
 
+# a = input('Knowledge is power !!! yes /no')
+# print(a)
+
+
+a = input('Enter your Mob no:')
+print(a)

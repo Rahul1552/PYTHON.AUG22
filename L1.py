@@ -1,82 +1,75 @@
 #################################################
-# 19.08.2022
+# 09.08.2022
 #################################################
-# TOPICS TO BE COVERED 
-# INTRODUCTION TO PYTHON
-# https://www.python.org/
+# TOPICS TO BE COVERED  
+# Writing First Python Code !!!
+# FOR SOME DAYS USE ONLINE COMPILER
 # https://www.programiz.com/python-programming/online-compiler/
+# https://onecompiler.com/python/3ycgkcqjm
+#################################################
+'''
+
+
+# Why learn python?
+
+
+#################################################
+# JS
+#################################################
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = "Hello World";
+</script>
+</body>
+</html> 
+
+#################################################
+# C#
+#################################################
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
+'''
+
+#################################################
+# WRITING FIRST CODE IN PYTHON
 #################################################
 
-# What is Python
+print("Hello World")
 
-'''
-Python is a high-level, 
-interpreted, 
-general-purpose programming language. 
-Its design philosophy emphasizes code readability with the 
-use of significant indentation.[32]
+# how to do pass comments ????
+# ANYLINE STARTING WITH HASH WILL BE TREATED AS COMMENT AND WONT BE EXECUTED IN PYTHON
 
-Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.[33][34]
 
-'''
+# ALL WILL HAVE SAME OUTPUT
 
-# Features of Python
-'''
-Easy to learn
-Huge collection of Library
-Cross Platform
-Can be combined with other Languages
-'''
- 
+print('Hello World')
+print("Hello World")
+print('''Hello World''')
 
 
 #################################################
 # It couldn’t get simpler than Python!
 #################################################
-# # VERY SIMILAR TO PLAIN ENGLISH
-# 
+# VERY SIMILAR TO PLAIN ENGLISH
 
-#                 #################################################
-#                 # JS
-#                 #################################################
-#                 '''
-#                 <!DOCTYPE html>
-#                 <html>
-#                 <body>
-#                 <p id="demo"></p>
-#                 <script>
-#                 document.getElementById("demo").innerHTML = "Hello World";
-#                 </script>
-#                 </body>
-#                 </html> 
-
-#                 #################################################
-#                 # C#
-#                 #################################################
-#                 using System;
-
-#                 namespace HelloWorld
-#                 {
-#                 class Program
-#                 {
-#                     static void Main(string[] args)
-#                     {
-#                     Console.WriteLine("Hello World!");    
-#                     }
-#                 }
-#                 }
-#                 '''
-
-
-#                 #################################################
-#                 # PYTHON
-#                 #################################################
-#                 print("Hello, World!")
 
 #################################################
 # Python is agile by design
 #################################################
-# ability to change as per requirements 
+# error detection 
 
 
 #################################################
@@ -84,10 +77,6 @@ Can be combined with other Languages
 #################################################
 # Django
 # Flask 
-# Pyramid, TurboGears, 
-# Web2Py, Bottle, 
-# CherryPy, Hug, Falcon, Sanic,
-# FastAPI
 
 
 #################################################
@@ -98,13 +87,7 @@ Can be combined with other Languages
 # NUMPY
 # SCIPY
 # PANDAS 
-
-#################################################
-# Data Visualization
-#################################################
-# Matplotlib 
-# Pandas  Seaborn, and ggplot 
-# Plotly, Altair, Seaborn
+#
 
 
 #################################################
@@ -113,12 +96,6 @@ Can be combined with other Languages
 # scripting
 # automation 
 
-
-#################################################
-# Testing
-#################################################
-# Pytest and Splinter ,Selenium
-# Robot
 
 #################################################
 # Libraries and frameworks
@@ -135,7 +112,15 @@ Can be combined with other Languages
 #################################################
 
 
+
 #################################################
-# WRITING FIRST PYTHON CODE
+# HW
+# USE ONLINE COMPILER TO DO HOMEWORK
 #################################################
-print('Hello World')
+
+
+# 1. WRITE A CODE TO PRINT "I LOVE PYTHON" 
+# 2. WRITE A CODE TO PRINT "2 + 3"
+# 3. WRITE A CODE TO PRINT "TOADY'S DATE IS 09.08.2022 "
+
+# ☝️ SHARE THE  OUTPUT SCREEN SHOT
